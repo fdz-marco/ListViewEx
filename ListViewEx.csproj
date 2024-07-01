@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <EmbeddedResource Include="Resources\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Classes\Controls\ListViewEx\ListViewEx_Advanced_02.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\ListViewEx\ListViewEx_Advanced_01.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\ListViewEx\ListViewEx_TagSettings.cs" />
+    <Compile Update="Classes\Controls\ListViewEx\ListViewEx_Advanced_00.cs" />
+    <Compile Update="Classes\Controls\ListViewEx\ListViewEx_Clipboard.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\ListViewEx\ListViewEx_Cells.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\ListViewEx\ListViewEx_Utils.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
